@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block title %}Night at the Moodeum{% endblock %}
+{% block body %}
+<div class="jumbotron">
+    <h1>A Night At the Moodeum</h1>
+    <p class="lead">Feeling some type 'a way? Let us suggest a movie for your mood.</p>
+    <div class="slidecontainer">
+        <p>Sad people over here. Happy people on this side</p>
+        <input type="range" min="0" max="100" value="50" class="slider" id="myRange">
+        <p>Looks like about a <span id="demo"></span></p>
+    </div>
+    <div class="slidecontainer">
+            <p>How INTENSE are you today</p>
+            <input type="range" min="0" max="100" value="50" class="slider" id="myRange2">
+            <p>Looks like about a <span id="demo2"></span></p>
+        </div>
+</div>
+{% endblock %}
