@@ -1,0 +1,605 @@
+Example Semantria Outputs
+
+~~~~~~~~
+
+Movie Synopsis:
+Semantria - Test 1 Narasimham, 20663735
+
+Anthonys-MacBook-Pro:HackHarvard-2018 anthonycui$ python semantriaDemo.py
+1 documents queued successfully.
+Retrieving your processed results...
+Retrieving your processed results...
+Retrieving your processed results...
+Retrieving your processed results...
+Retrieving your processed results...
+Document 55b51a7b-dc80-42df-ae03-bd3ecb99fcc4 / Sentiment score: -0.18340525
+Document themes:
+	 six years prison life (sentiment: -1.47)
+	 Madhavan Nambiar (sentiment: -4.174032)
+	 former state minister (sentiment: -1.164848)
+	 gross injustice (sentiment: -2.1288886)
+	 promising life (sentiment: -2.6478598)
+	 Poovalli Induchoodan (sentiment: -1.8559048)
+	 idealist judge Menon (sentiment: -1.7506343)
+	 jail sentence (sentiment: -1.8000001)
+	 corruption case (sentiment: -1.8000001)
+	 civil service trainees (sentiment: 0.48894)
+	 Manapally Pavithran (sentiment: -0.514872)
+	 top rank (sentiment: 0.6)
+	 Manapally Sudheeran (sentiment: 0.3269592)
+	 independent-minded daughter (sentiment: 0.4)
+	 good friend Jayakrishnan (sentiment: 0.4)
+Entities:
+	 idealist judge Menon: Job Title (sentiment: -0.55)
+	 minister: Job Title (sentiment: -0.891212)
+
+Done!
+
+~~~~~~~~~~
+
+Semantria-provided test (on 100 documents)
+Anthonys-MacBook-Pro:examples anthonycui$ python detailed_mode_test_app.py 
+Semantria Detailed mode demo ...
+
+Reading collection from file...
+100 documents queued successfully.
+
+Retrieving your processed results...
+Retrieving your processed results...
+Retrieving your processed results...
+
+Document fee24aa3-f640-4b2d-a61b-1cd8c2578088 / Sentiment score: -0.72
+Document themes:
+	 military blunder (sentiment: -0.6)
+	 shapes course (sentiment: -0.72)
+	 Canadian resolve (sentiment: -0.72)
+Entities:
+	 Gen. William Hull: Person (sentiment: -1.2)
+	 Detroit: Place (sentiment: -0.6)
+
+Document 6fa89c97-d3f6-498a-8fe6-7bd41cd7bc08 / Sentiment score: -0.055000007
+Document themes:
+	 animal advocacy group (sentiment: 0.49)
+Entities:
+	  @TorontoStar: Person (sentiment: 0.49)
+
+Document 9192dec5-b31f-4968-97d6-71400bff03f1 / Sentiment score: 1.2266667
+
+Document f56c08b8-fd0a-4598-8081-a631535f21fd / Sentiment score: 0.394436
+Document themes:
+	 doc series (sentiment: 0.394436)
+Entities:
+	  @TorontoStandard: Person (sentiment: 0.0)
+	 Cultural Centre: Place (sentiment: 0.0)
+	 doc: Company (sentiment: 0.788872)
+
+Document 1bcfb1e6-d82c-481e-b3a5-b1fffc58b269 / Sentiment score: 0.0
+Entities:
+	 Chad Johnson Chad: Person (sentiment: 0.0)
+	 Miami Dolphins: Company (sentiment: 0.0)
+
+Document 1422fa39-64b1-4e5f-b66b-cbd08da6f082 / Sentiment score: -0.6
+Document themes:
+	 military blunder (sentiment: -0.6)
+	 shapes course (sentiment: -0.6)
+Entities:
+	  @TorontoStarNews: Person (sentiment: 0.0)
+	 Gen. William Hull: Person (sentiment: -1.2)
+	 Detroit: Place (sentiment: -0.6)
+
+Document 8ad69836-8189-476c-9b54-6b1906de4388 / Sentiment score: -0.05378568
+Document themes:
+	 high-tech aesthetic (sentiment: 0.5103572)
+	 Citibank Place (sentiment: -0.05378568)
+
+Document 797e8df0-e466-4098-a267-1f3e21f5d343 / Sentiment score: 0.0
+
+Document 2d03d9b0-36b7-4e84-89ab-926ffdcfa890 / Sentiment score: 0.0
+Entities:
+	  @Raptors: Person (sentiment: 0.0)
+	  @sleepydex: Person (sentiment: 0.0)
+	  @metermaiden: Person (sentiment: 0.0)
+
+Document c3cd3fda-541c-4f50-b436-d0fd65096854 / Sentiment score: 0.49
+
+Document e09f0870-cfba-4833-8d01-e6eab3ceb68e / Sentiment score: 0.0
+Document themes:
+	 human remains (sentiment: 0.0)
+
+Document fa712385-cabb-4fbe-862d-96cbb73fb820 / Sentiment score: 0.134821
+Entities:
+	  @torontoist: Person (sentiment: 0.134821)
+
+Document c8bcce02-2778-4212-8944-8d4bebd94e96 / Sentiment score: 0.44999996
+Document themes:
+	 human foot (sentiment: 0.44999996)
+Entities:
+	  @CP24: Person (sentiment: 0.44999996)
+
+Document 3ebdda3a-5fb2-4232-8f62-fef17ce53d22 / Sentiment score: -0.5130239
+Document themes:
+	 injured players list (sentiment: -0.49752668)
+
+Document 871e63e3-afde-48fc-a9e6-247e9b418b16 / Sentiment score: -0.675
+
+Document 28b16c3e-18b6-4e3f-873b-f14360fcd95b / Sentiment score: 0.0
+Document themes:
+	 audio tour (sentiment: 0.0)
+Entities:
+	  @agotoronto: Person (sentiment: 0.0)
+	  @ahmadktaech: Person (sentiment: 0.0)
+	 Picasso: Person (sentiment: 0.0)
+
+Document 2f88b971-a24d-43a9-92e5-04e03cbdb42a / Sentiment score: 0.0
+Document themes:
+	 closing ceremony (sentiment: 0.0)
+	 million people tune (sentiment: 0.0)
+	 most-watched event (sentiment: 0.0)
+Entities:
+	 Canada: Place (sentiment: 0.0)
+
+Document fef90db1-7b15-4b63-8132-b34205bb835a / Sentiment score: 0.45
+Document themes:
+	 Gardiner Expressway (sentiment: 0.45)
+Entities:
+	 Ford: vehicle (sentiment: 0.45)
+
+Document 250af5c5-51ce-4f8b-b079-f67c59fcddd2 / Sentiment score: -0.49
+Entities:
+	 Earl Jones: Person (sentiment: -0.49)
+	 RBC Dominion Securities: Company (sentiment: -0.49)
+
+Document 72cc4bba-d686-4453-b08f-fbb1fb4230d9 / Sentiment score: 0.98
+Document themes:
+	 mouth referrals (sentiment: 0.98)
+
+Document a35fefeb-d9fb-40bf-a6ec-f440031fd3b2 / Sentiment score: 0.6
+Entities:
+	  @MapleLeafs: Person (sentiment: 0.6)
+	  @ovie08: Person (sentiment: 0.6)
+
+Document a5558901-dc6b-4288-ba37-cafa51f1dc3f / Sentiment score: -0.23000002
+Document themes:
+	 deadly crash (sentiment: -0.6)
+Entities:
+	 Mississauga: Company (sentiment: -0.69000006)
+
+Document 92b98a8b-febb-4420-aa1a-d942da12f93a / Sentiment score: 0.0
+Entities:
+	  @toronto_life: Person (sentiment: 0.0)
+
+Document 667cb651-1cfa-4bce-b95e-7d97ed7829a7 / Sentiment score: 0.0
+Entities:
+	  @KevinFrankish: Person (sentiment: 0.0)
+	  @jcitravel: Person (sentiment: 0.0)
+	  @KevForget: Person (sentiment: 0.0)
+	  @BTtoronto: Person (sentiment: 0.0)
+
+Document 1eeeb2af-912c-4b2d-a918-5934d00180b5 / Sentiment score: 0.57687
+Document themes:
+	 Facial Hair Lifestyle (sentiment: 0.57687)
+Entities:
+	  @trendhunter: Person (sentiment: 0.48072502)
+
+Document 2129137e-0384-4a72-9b70-70f68ed473a1 / Sentiment score: 0.0
+Entities:
+	 Toronto: Place (sentiment: 0.0)
+
+Document 49709615-d97c-42d4-9f24-f3c1b424df21 / Sentiment score: 0.806353
+Document themes:
+	 mouth referrals (sentiment: 0.806353)
+
+Document 244a3496-d6a1-4d36-8451-53fe034e3586 / Sentiment score: -0.6
+Document themes:
+	 cottage roof (sentiment: -0.6)
+Entities:
+	 Huntsville: Place (sentiment: -1.2)
+	 Lake of Bays: Place (sentiment: -1.2)
+
+Document 71232b14-d9cc-4ec3-a2ab-4d381e73c425 / Sentiment score: 0.0
+Entities:
+	  @torontofc: Person (sentiment: 0.0)
+
+Document 24b9535a-e535-4a1f-9b44-78dc0cf54527 / Sentiment score: 0.0
+Document themes:
+	 school teachers (sentiment: 0.0)
+Entities:
+	  @CP24: Person (sentiment: 0.0)
+
+Document 9b9f0c77-e097-4964-82ab-6c71aa2d2cb7 / Sentiment score: 0.0
+Entities:
+	  @BTtoronto: Person (sentiment: 0.0)
+	  @TerryCrews: Person (sentiment: 0.0)
+
+Document 8fdfbf64-26bd-4a9a-97c9-6bc5e66d1675 / Sentiment score: 0.6
+Entities:
+	 Scarbo: Product (sentiment: 0.6)
+
+Document 2cb75e98-a581-4d9c-b9af-e19cd5e7cbad / Sentiment score: -0.038603544
+Document themes:
+	 public offering (sentiment: 0.456249)
+Entities:
+	 Manchester: Place (sentiment: -0.06433922)
+	 New York: Place (sentiment: 0.0)
+
+Document 121c75a3-540f-4790-b440-8680b4e6abc1 / Sentiment score: -0.07484001
+Document themes:
+	 Camera controversy (sentiment: -0.4)
+Entities:
+	 Toronto: Place (sentiment: -0.14968002)
+
+Document 76145c3b-4d16-4e03-b20b-4e6679b4be56 / Sentiment score: -0.14627251
+Document themes:
+	 Jewish groups (sentiment: 0.012425)
+	 hate rally (sentiment: -0.049999982)
+Entities:
+	 Ontario: Place (sentiment: -0.087574966)
+
+Document c8866c3b-616d-4b2b-88f6-7ee901e735a2 / Sentiment score: 1.24
+Document themes:
+	 wanted enhancement (sentiment: 0.98)
+
+Document 559b79c5-aec9-404c-a5fc-de5b83cd2626 / Sentiment score: 1.2
+Document themes:
+	 personal references (sentiment: 1.2)
+
+Document e2a7bc0b-6ff8-46d6-b9b8-e60cd29c3d9b / Sentiment score: 0.0
+Document themes:
+	 wide receiver (sentiment: 0.0)
+Entities:
+	 Chad Johnson: Person (sentiment: 0.0)
+	 Miami Dolphins: Company (sentiment: 0.0)
+
+Document 88d17672-799b-40f3-bd05-e5a7c65aefe9 / Sentiment score: 1.35
+Document themes:
+	 wanted expansion (sentiment: 1.2750001)
+	 mouth referrals (sentiment: 1.2375001)
+
+Document 32a278fa-c055-4e90-b803-ebbc0874ff1f / Sentiment score: 1.0031765
+
+Document f1d8a51a-8046-4e94-ade0-2cb4dce46c58 / Sentiment score: 0.0
+Document themes:
+	 Male jumps (sentiment: 0.0)
+	 6th-floor apartment (sentiment: 0.0)
+
+Document 0b21415f-43b9-4679-8cdd-0cb8204af968 / Sentiment score: 0.0
+Document themes:
+	 flag bearer (sentiment: 0.0)
+	 closing ceremonies (sentiment: 0.0)
+Entities:
+	  @CBCAlerts: Person (sentiment: 0.0)
+
+Document 3e3e7f1f-440f-4186-8ce8-8a672270cbc5 / Sentiment score: 0.0
+Document themes:
+	 recent mentions (sentiment: 0.0)
+Entities:
+	  @MapleLeafs: Person (sentiment: 0.0)
+	  @parachutepolice: Person (sentiment: 0.0)
+	  @Leafs_Nation34: Person (sentiment: 0.0)
+	  @MattMerritt: Person (sentiment: 0.0)
+	  @Teaqueen180: Person (sentiment: 0.0)
+	  @LeboeufsMarket: Person (sentiment: 0.0)
+	  @DykstraRyan: Person (sentiment: 0.0)
+
+Document a532d06f-1423-4966-87f9-bd0294e335ce / Sentiment score: -0.506666
+Document themes:
+	 delayed reply (sentiment: -0.506666)
+Entities:
+	  @agotoronto: Person (sentiment: -0.506666)
+	  @barbhowson: Person (sentiment: -0.506666)
+
+Document def701ec-48aa-45cd-908c-f7054c353bc3 / Sentiment score: 0.0
+Document themes:
+	 side project (sentiment: 0.0)
+Entities:
+	  @nowtoronto: Person (sentiment: 0.0)
+
+Document 1fc10d22-4b08-4867-9c76-e4b1a9bcaf19 / Sentiment score: 0.0
+Document themes:
+	 closing ceremony London2012 (sentiment: 0.0)
+Entities:
+	  @CityNews: Person (sentiment: 0.0)
+	 London: Place (sentiment: 0.0)
+
+Document c4000e61-87d6-4f43-a400-dbab1c6e463b / Sentiment score: 0.0
+Document themes:
+	 multiple road closures (sentiment: 0.0)
+	 Several events (sentiment: 0.0)
+Entities:
+	  @CTVToronto: Person (sentiment: 0.0)
+	 Toronto: Place (sentiment: 0.0)
+
+Document 59e182c8-a73c-4c08-83b0-19e22e2c7eb7 / Sentiment score: 0.44155174
+Document themes:
+	 Weinberger wins bronze (sentiment: 0.44155174)
+	 11th bronze medal (sentiment: 0.44155174)
+	 10km swim (sentiment: 0.44155174)
+Entities:
+	 ?s: Pattern (sentiment: 0.44155174)
+
+Document 6292f257-c2e6-4867-8f45-82a117154832 / Sentiment score: 0.0
+Entities:
+	 Brad Carr: Person (sentiment: 0.0)
+
+Document ee2383dc-22d3-4b63-8742-5a0b9940f4a7 / Sentiment score: 0.0
+Document themes:
+	 named flag-bearer (sentiment: 0.0)
+	 Soccer star (sentiment: 0.0)
+Entities:
+	 Christine Sinclair: Person (sentiment: 0.0)
+	 London: Place (sentiment: 0.0)
+	 Canada: Place (sentiment: 0.0)
+
+Document 6689766a-da68-409b-9542-857d51e03a1a / Sentiment score: 0.0
+Document themes:
+	 closing ceremony (sentiment: 0.0)
+Entities:
+	 Ford: vehicle (sentiment: 0.0)
+
+Document 3a947b68-b3e4-4c8c-9057-de80ce007adf / Sentiment score: -0.23666668
+Document themes:
+	 Bad idea (sentiment: -0.55)
+	 rigid list (sentiment: -0.23666668)
+	 must-have qualities (sentiment: 0.49)
+Entities:
+	  @TorontoStar: Person (sentiment: -0.55)
+	 Ellie: Person (sentiment: 0.49)
+
+Document 4b11c4f5-f736-4cfc-ace6-5b75a8cf4a38 / Sentiment score: 0.0
+Entities:
+	  @TorontoStandard: Person (sentiment: 0.0)
+
+Document b01ecb37-b806-4559-b85f-0d6a43c448f7 / Sentiment score: -0.3275
+Document themes:
+	 rebel bastions (sentiment: -0.3)
+	 Syrian allies (sentiment: 0.49)
+	 Clashes rage (sentiment: -0.75)
+	 government troo (sentiment: -0.3275)
+Entities:
+	  @TorontoStarNews: Person (sentiment: -1.8)
+	 Aleppo: Place (sentiment: -1.8)
+	 Iran: Place (sentiment: 0.19)
+
+Document 384ce3b0-117a-4eeb-8f09-77833182e7fc / Sentiment score: -0.36923608
+Entities:
+	 Ford: vehicle (sentiment: 0.0)
+
+Document ec39b237-ed22-4226-912b-9fe8ed23deb8 / Sentiment score: 1.1531765
+Document themes:
+	 wanted promotion (sentiment: 0.806353)
+	 personal references (sentiment: 0.97976476)
+
+Document c1363466-c708-4ef4-bc08-2afe411e6004 / Sentiment score: 0.0
+Entities:
+	  @nowtoronto: Person (sentiment: 0.0)
+
+Document 273beed8-b109-4b1b-a6e7-b104e75325ad / Sentiment score: 0.0446956
+Document themes:
+	 corporate headquarters (sentiment: 0.0446956)
+Entities:
+	  @toronto_life: Person (sentiment: 0.0446956)
+	 Toronto: Place (sentiment: 0.0446956)
+
+Document 5b8e3cc8-9ec2-43f7-91eb-69739839f14a / Sentiment score: 0.0
+Document themes:
+	 Travel deals (sentiment: 0.0)
+
+Document beb2c960-e6f8-4919-b154-73e7938e52b1 / Sentiment score: 0.0
+Document themes:
+	 light candles (sentiment: 0.0)
+Entities:
+	 John Farrell: Person (sentiment: 0.0)
+
+Document ea8f01f9-41b4-4aef-957a-8bb35547818f / Sentiment score: 0.0
+Document themes:
+	 waterfront lands (sentiment: 0.0)
+Entities:
+	 Yonge Street: Place (sentiment: 0.0)
+
+Document c57bb956-c133-4356-93fd-bf18e10a8816 / Sentiment score: 1.09
+
+Document dcdcf9d8-5e34-44fb-85d9-5f2f0582a293 / Sentiment score: 0.0
+Entities:
+	  @Raptors: Person (sentiment: 0.0)
+	  @HumberToday: Person (sentiment: 0.0)
+	  @IamAmirJohnson: Person (sentiment: 0.0)
+	  @eddavis32: Person (sentiment: 0.0)
+	  @humbercollege: Person (sentiment: 0.0)
+
+Document 27b45ab1-378c-4de7-858f-a3f985090573 / Sentiment score: 0.0
+Entities:
+	  @trendhunter: Person (sentiment: 0.0)
+
+Document 4c4cf241-875e-49b5-a58a-eea78499f193 / Sentiment score: -0.23963873
+Document themes:
+	 late teens (sentiment: -0.36923608)
+	 early 20S (sentiment: -0.23963873)
+Entities:
+	 Ontario: Place (sentiment: -0.40913808)
+
+Document 112ed322-751a-4f60-a044-c92e0f36c3ac / Sentiment score: 0.0
+
+Document 98491def-1a29-458d-8161-bb1f96291e57 / Sentiment score: 0.0
+Entities:
+	  @TorontoStar: Person (sentiment: 0.0)
+
+Document 67677f9c-8498-48e3-822c-163e1fc66baa / Sentiment score: 0.4910728
+Document themes:
+	 independence day celebrations (sentiment: 0.5158334)
+Entities:
+	  @CityNews: Person (sentiment: 0.44155174)
+
+Document e4f6ac10-d5e4-4dbe-bf02-d21843964211 / Sentiment score: 0.44155174
+Document themes:
+	 tennis gold (sentiment: 0.44155174)
+Entities:
+	  @CBCAlerts: Person (sentiment: 0.44155174)
+	 Andy Murray: Person (sentiment: 0.44155174)
+
+Document 5980fa4a-18bd-4759-ad38-317ce2468fd1 / Sentiment score: 0.0
+Entities:
+	 Toronto: Place (sentiment: 0.0)
+
+Document 9798a850-f460-49f5-9e7d-c9d9f5d2a6b2 / Sentiment score: -0.025000006
+Document themes:
+	 Federal safety regulators (sentiment: 0.55)
+	 safety violations fines (sentiment: -0.025000006)
+Entities:
+	 $162 million: Pattern (sentiment: -0.050000012)
+	 $162.4 million: Pattern (sentiment: 0.55)
+
+Document fdbc8dad-6a6f-48f5-9001-59f0f9d53dbe / Sentiment score: 0.011374995
+Document themes:
+	 giving babies (sentiment: 0.011374995)
+	 fighting chance (sentiment: -0.39)
+Entities:
+	 Toronto: Place (sentiment: -0.39)
+
+Document 15b4bf81-057d-487d-9302-3dba7bf85f3c / Sentiment score: 0.117714
+Document themes:
+	 w dinner (sentiment: 0.117714)
+Entities:
+	  @BTtoronto: Person (sentiment: 0.0)
+	 Will Ferrell: Person (sentiment: 0.0)
+	 BT: Company (sentiment: 0.117714)
+	 Jack Astor: Person (sentiment: 0.0)
+
+Document 719367ae-b9fb-4492-a9ae-a3833827dbfa / Sentiment score: -0.23028566
+Document themes:
+	 early morning crash (sentiment: -0.24202)
+	 Provincial police (sentiment: 0.041163)
+Entities:
+	  @CTVToronto: Person (sentiment: 0.041163)
+
+Document ce0ce460-04b4-4b54-a94e-9e8a59620f5b / Sentiment score: 0.0
+Document themes:
+	 feeling unwell (sentiment: 0.0)
+Entities:
+	 Ford: vehicle (sentiment: 0.0)
+	 spokesman: Job Title (sentiment: 0.0)
+
+Document f3d07b2d-ba46-4ab6-99a7-ed0a6b828a04 / Sentiment score: 0.0
+Entities:
+	  @KevinFrankish: Person (sentiment: 0.0)
+
+Document 5db72fe2-1520-4529-8f7f-4933667ed755 / Sentiment score: -0.5695038
+Document themes:
+	 third injury (sentiment: -0.5695038)
+Entities:
+	  @torontofc: Person (sentiment: 0.0)
+	 Jeremy Hall: Place (sentiment: 0.0)
+
+Document 7a4ba28b-ff05-4e14-9f43-e3fdc9cc39ac / Sentiment score: -0.6025794
+Document themes:
+	 Yorkdale Mall cinema staff Police (sentiment: -0.6025794)
+
+Document 8d748317-6aef-4b42-b28b-42475362fd7f / Sentiment score: -0.75
+
+Document c57d2df4-f8a1-4c3b-8168-83e3cfd22b6b / Sentiment score: -0.545
+Entities:
+	  @torontoist: Person (sentiment: 0.0)
+
+Document 59d7c54f-a21f-4fec-bf44-4bb6bea3421c / Sentiment score: 0.0
+Document themes:
+	 word-of-mouth referrals (sentiment: 0.0)
+
+Document 0691f916-a72c-4eba-9f29-246ff86cffa8 / Sentiment score: 0.98
+Document themes:
+	 word-of-mouth referrals (sentiment: 0.98)
+
+Document db6cd81c-7ae8-4883-a64b-13d032abc01d / Sentiment score: 0.0
+Entities:
+	 Ontario: Place (sentiment: 0.0)
+
+Document cfb759df-bc4c-4d43-8c5e-28b4049bf2cd / Sentiment score: -0.60159856
+Document themes:
+	 Toronto??? (sentiment: -0.60159856)
+	 city??? (sentiment: -0.60159856)
+Entities:
+	 Toronto: Place (sentiment: 0.0)
+
+Document 69c256d4-ec4f-4fa4-b293-c1c278138691 / Sentiment score: 0.44155174
+Document themes:
+	 team pursuit track cycling (sentiment: 0.44155174)
+Entities:
+	  @CP24: Person (sentiment: 0.0)
+	 Canada: Place (sentiment: 0.44155174)
+
+Document 59762fe8-3bf4-4a5b-99a6-c1d64bf286af / Sentiment score: -0.66605264
+Document themes:
+	 appeal notice (sentiment: -0.66605264)
+	 eight-year-old girl (sentiment: -0.66605264)
+Entities:
+	 Tori Stafford: Person (sentiment: -1.998158)
+	 Michael Rafferty: Person (sentiment: -1.998158)
+
+Document 9fc3345b-b0b1-44de-96de-06911cacd8ff / Sentiment score: 0.222479
+Document themes:
+	 Canadian residence permit (sentiment: 0.222479)
+	 special treatment (sentiment: 0.222479)
+Entities:
+	  @toronto_life: Person (sentiment: 0.0)
+	 Conrad Black: Person (sentiment: 0.222479)
+
+Document adc1d702-7700-42b8-9cf7-2d6e3135c0ec / Sentiment score: 1.5
+
+Document a683741b-1bb8-4164-a6b0-7305101cb4d3 / Sentiment score: 0.523237
+Document themes:
+	 full force (sentiment: 0.746474)
+	 summer temperatures (sentiment: 0.523237)
+Entities:
+	 July 2012: Pattern (sentiment: 0.3)
+	 UrbanToronto: Company (sentiment: 0.0)
+	 Toronto: Place (sentiment: 0.746474)
+
+Document 2cb4406b-8ca8-41be-a47a-24a3f75dd417 / Sentiment score: -0.43599996
+Document themes:
+	 murder conviction (sentiment: -0.675)
+	 life sentence (sentiment: -0.43599996)
+
+Document c8290465-05be-4e45-b462-13466fd57a1a / Sentiment score: 0.0
+Entities:
+	  @TorontoStandard: Person (sentiment: 0.0)
+	 Dylan Armstrong: Person (sentiment: 0.0)
+
+Document 144e3fdc-16da-4fd1-9b53-480048362fbc / Sentiment score: 0.0
+Document themes:
+	 GTA men (sentiment: 0.0)
+	 firearms trafficking (sentiment: 0.0)
+Entities:
+	 Michael Boucher: Person (sentiment: 0.0)
+
+Document 8dceae1d-87d6-4f69-ba27-3ff9e091b548 / Sentiment score: -0.7
+Document themes:
+	 Korean weightlifter??? (sentiment: -0.7)
+
+Document b0e162ab-0e83-4018-866b-77acb0785a08 / Sentiment score: 0.0376466
+Document themes:
+	 Postal worker (sentiment: 0.0376466)
+
+Document 441a08e8-c15e-4616-9418-4f776e5f620c / Sentiment score: 0.654254
+Document themes:
+	 female bartender (sentiment: 0.654254)
+	 winning actor (sentiment: 0.5452117)
+Entities:
+	 New Orleans: Place (sentiment: 0.0)
+
+Document a725ee6b-2511-42e4-87b7-93eadb61e2ae / Sentiment score: 0.345
+Entities:
+	  @MapleLeafs: Person (sentiment: 0.49)
+	  @Toronto_John63: Person (sentiment: 0.49)
+
+Document ffbc87b6-9783-47b1-a2dd-63c6d5696211 / Sentiment score: 0.0
+Entities:
+	  @agotoronto: Person (sentiment: 0.0)
+	  @LegionofHonor: Person (sentiment: 0.0)
+
+Document a0079e72-aeae-49df-94b9-7b7e89c8dd96 / Sentiment score: 0.0
+
+Document b5c7bab1-cfc8-4609-8352-f316823d912a / Sentiment score: 0.0
+
+Document 7fb5d6fb-64a0-42f7-aedc-bcc99e7c4c68 / Sentiment score: 0.0
+Entities:
+	  @TorontoStarNews: Person (sentiment: 0.0)
+
+Done!

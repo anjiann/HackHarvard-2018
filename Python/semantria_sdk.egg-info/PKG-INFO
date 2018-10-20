@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: semantria-sdk
+Version: 4.2.92
+Summary: Semantria Python SDK
+Home-page: https://semantria.com
+Author: Semantria, LLC
+Author-email: support@semantria.com
+License: GPL v3
+Description: 
+        Semantria is a text analytics and sentiment analysis platform.
+        
+        See https://semantria.readme.io for details.
+        
+Keywords: semantria sdk text analytics
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
