@@ -28,7 +28,7 @@ fileSynopses = []
 #load all file data into two lists - shared index
 def read(line):
     split = line.split('\t')
-    fileIDs.append(split[0])
+    fileIDs.append(int(split[0]))
     fileSynopses.append(split[1])
 
 filename = "/Users/anthonycui/Documents/Coding/HackHarvard-2018/MovieSummaries/plot_summaries.txt"
@@ -63,12 +63,12 @@ consumerKey = os.getenv('SEMANTRIA_KEY')
 consumerSecret = os.getenv('SEMANTRIA_SECRET')
 
 # Initializes new session with the serializer object and the keys.
-session = semantria.Session(consumerKey, consumerSecret)
+session = semantria.Session("8087b301-f1ae-452a-849b-cd48fb881436","a2c7b881-5e1a-4c7d-9c5e-92249962a586")#consumerKey, consumerSecret)
 
 subscription = session.getSubscription()
 
 initialTexts = []
-for i in range(0, 6):
+for i in range(0, ):
     initialTexts.append(fileSynopses[i])
 
 #some sample text - only one document
@@ -88,24 +88,25 @@ for i in range(0, 6):
 documents = []
 #build list of uuids that matches index, so we can map uuids to ids later
 uuids = []
+pointer = 0
 for index, text in enumerate(initialTexts): #have to be inputted in order given by file
     if len(text) > 2048: #exceeds character limit, don't process
-        del fileIDs[index] #remove corresponding ID from list
+        del fileIDs[pointer] #remove corresponding ID from list
         continue
-
     doc_id = str(uuid.uuid4())
     uuids.append(doc_id)
-
     documents.append({'id': doc_id, 'text': text})
-    
+    pointer += 1
+
+length = len(documents)
+
 for text in initialTexts:
     if len(documents) <= subscription['basic_settings']['incoming_batch_limit']:
         status = session.queueBatch(documents)
         if status in [200, 202]:
             print ("{0} documents queued successfully.".format(len(documents)))
             documents = []
-    
-length = len(documents)
+
 results = []
 
 while len(results) < length:
@@ -186,7 +187,7 @@ for data in results:
 
     # data["id"] holds the uuid - matching index to IDs
     # IDs in large set are matching index to titles
-    realID = idList[uuids.index(data['id'])] #map uuid to real ID (small set)
+    realID = fileIDs[uuids.index(data['id'])] #map uuid to real ID (small set)
     movieTitle = titleList[idList.index(realID)] #map real ID to title (big set)
 
     movieScores[movieTitle] = [docScore, polarity]
