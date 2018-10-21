@@ -1,5 +1,8 @@
 {% extends "base.html" %}
-{% block title %}Night at the Moodeum{% endblock %}
+
+{% block title %} Night at the Moodeum {% endblock %}
+{% block link %} {% endblock %}
+
 {% block body %}
 <div class="jumbotron">
     <h1>A Night At the Moodeum</h1>
@@ -15,4 +18,6 @@
             <p>Looks like about a <span id="demo2"></span></p>
         </div>
 </div>
+<script type="text/javascript" src="{{
+  url_for('static', filename='moodeum.js')}}"></script>
 {% endblock %}
