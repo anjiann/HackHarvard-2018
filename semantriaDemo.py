@@ -2,6 +2,15 @@
 # -*- coding: utf-8 -*-
 
 import semantria, time, uuid, os
+import scipy.io as spio
+
+#ID to Title mapping
+mat = spio.loadmat(r'movie_metadata.mat', struct_as_record=False)
+data = mat['m']
+idList = (data[0,0].ID).tolist()
+for index, id in enumerate(idList):
+    idList[index] = idList[index][0] #transform list of lists into single list of ids
+titleList = (data[0,0].Title).tolist()
 
 # API Key/Secret
 # Set the environment vars before calling this program
@@ -32,7 +41,7 @@ initialTexts = [
 
 #should have an equal size list of id numbers that index directly 
 #to their respective synopses - Kathy
-#idNumbers = []
+#idNumbers = {}
 
 documents = []
 for index, text in enumerate(initialTexts):
@@ -125,7 +134,9 @@ for data in results:
         else :
             docScore = docScore*(1/(1+aScore))
 
-    movieScores[data['id']] = docScore
+    #Map movie ID number to movie title
+    movieTitle = titleList[idList.index(data['id'])]
+    movieScores[titleList] = docScore
     print("")
 
 print("Done!")

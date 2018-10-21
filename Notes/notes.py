@@ -1,13 +1,13 @@
 # helloTest.py
 
-from flask import Flask #import Flask class
-app = Flask(__name__) #create instance of it
+#from flask import Flask #import Flask class
+#app = Flask(__name__) #create instance of it
 # name argument indicates the app's module or package so that flask 
 # knows where to find other files such as templates
 
-@app.route('/') #tells Flask which path to display result of function
-def hello_world():
-    return 'HackHarvard is ours'
+#@app.route('/') #tells Flask which path to display result of function
+#def hello_world():
+    #return 'HackHarvard is ours'
 
 # We need to set up proper directory structure for our web app
 # /app is the directory for all code 

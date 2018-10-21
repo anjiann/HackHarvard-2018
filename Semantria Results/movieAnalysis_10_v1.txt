@@ -1,0 +1,431 @@
+Anthonys-MacBook-Pro:HackHarvard-2018 anthonycui$ python semantriaDemo.py
+10 documents queued successfully.
+Retrieving your processed results...
+Document 205d736f-317e-4497-92b4-5a5c4a761d54 
+	Sentiment score: -0.0939909 / Sentiment polarity: negative
+Document themes:
+	 traditional house 
+		(str-score: 1.6761906, sentiment: -2.954543)
+	 sham marriage 
+		(str-score: 1.2, sentiment: -1.96)
+	 Indian wife 
+		(str-score: 1.0, sentiment: -0.033014685)
+	 favorite tennis star 
+		(str-score: 0.875, sentiment: 1.2)
+	 struggling cartoonist 
+		(str-score: 0.5833334, sentiment: -1.2)
+	 tennis match 
+		(str-score: 0.5833334, sentiment: -0.066071436)
+	 incrimiating evidence 
+		(str-score: 0.16666667, sentiment: -0.2656714)
+Entities:
+	 Anita: Person 
+		(sentiment: 0.53918004)
+	 Sita Devi: Person 
+		(sentiment: -1.09)
+Topics:
+	 Marriage: 
+		(str-score: 1.1269573, s-score: -0.185, s-polarity: neutral)
+
+Document ecdb8d6b-115d-46dc-ba47-378a8e44f829 
+	Sentiment score: -0.12926671 / Sentiment polarity: negative
+Document themes:
+	 teenagers head 
+		(str-score: 1.625, sentiment: -0.15368642)
+	 senior citizens retirement home 
+		(str-score: 1.202381, sentiment: 0.818763)
+	 Honeywagon plans 
+		(str-score: 0.6011905, sentiment: -0.27292147)
+	 pet chimp 
+		(str-score: 0.5, sentiment: -0.13387501)
+	 especially Honeywagon 
+		(str-score: 0.5, sentiment: -0.1561875)
+	 British rocker 
+		(str-score: 0.39285713, sentiment: 0.516303)
+	 jealous rage 
+		(str-score: 0.16666667, sentiment: -0.75)
+	 Frankie challenges 
+		(str-score: 0.16666667, sentiment: -0.11619708)
+	 drag race 
+		(str-score: 0.16666667, sentiment: -0.11619708)
+Entities:
+	 Harvey Huntington: Person 
+		(sentiment: 0.0)
+	 Bikini Beach: Place 
+		(sentiment: 0.272921)
+	 Peter Royce Bentley: Person 
+		(sentiment: 0.3)
+	 Frankie: Person 
+		(sentiment: -0.8881666)
+	 Dee Dee: Person 
+		(sentiment: -0.862955)
+Topics:
+	 Marriage: 
+		(str-score: 0.8169163, s-score: -0.1381111, s-polarity: neutral)
+Traceback (most recent call last):
+  File "semantriaDemo.py", line 92, in <module>
+    entity['title'].encode('ascii', 'replace'), entity['strength_score'],
+KeyError: 'strength_score'
+Anthonys-MacBook-Pro:HackHarvard-2018 anthonycui$ clear
+
+Anthonys-MacBook-Pro:HackHarvard-2018 anthonycui$ python semantriaDemo.py
+10 documents queued successfully.
+Retrieving your processed results...
+Retrieving your processed results...
+Retrieving your processed results...
+Document a1e10df7-9cde-48ba-8e2f-cdec303499b6 
+	Sentiment score: -0.039779726 / Sentiment polarity: neutral
+Document themes:
+	 lonely city 
+		(str-score: 1.7588236, sentiment: -2.4)
+	 rainy night 
+		(str-score: 1.7588236, sentiment: -1.2)
+	 bicycle shop 
+		(str-score: 1.7588236, sentiment: -1.8900001)
+	 red unicycle 
+		(str-score: 1.0928571, sentiment: -2.6550002)
+	 clearance corner 
+		(str-score: 1.0928571, sentiment: -2.7675002)
+	 huge applause 
+		(str-score: 0.8638889, sentiment: 2.07)
+	 scattered claps 
+		(str-score: 0.8638889, sentiment: 1.6944458)
+	 different parts 
+		(str-score: 0.8638889, sentiment: 1.2163681)
+	 circus clown 
+		(str-score: 0.611888, sentiment: -0.551686)
+	 juggling act 
+		(str-score: 0.611888, sentiment: -0.275843)
+	 bleak reality 
+		(str-score: 0.4, sentiment: -1.47)
+	 clapping turns 
+		(str-score: 0.4, sentiment: -0.98256814)
+	 confused clown ponders 
+		(str-score: 0.38636363, sentiment: -0.9334993)
+	 green ball 
+		(str-score: 0.33809525, sentiment: 0.4803979)
+	 uproarous applause 
+		(str-score: 0.28373015, sentiment: 1.47)
+	 bike pedals 
+		(str-score: 0.2, sentiment: -0.33187503)
+	 final image 
+		(str-score: 0.0625, sentiment: 0.481228)
+	 neon sign 
+		(str-score: 0.0625, sentiment: 0.57747364)
+	 sudden realization 
+		(str-score: 0.05, sentiment: 0.0)
+
+Document ab2fe8c2-9b89-4c2d-8aec-76e06ccb6bcd 
+	Sentiment score: -0.05438841 / Sentiment polarity: negative
+Document themes:
+	 nondescript roan horse 
+		(str-score: 2.625, sentiment: -1.3570014)
+	 tamed horses 
+		(str-score: 1.75, sentiment: -1.248499)
+	 stray cows 
+		(str-score: 1.75, sentiment: -1.4655038)
+	 veterinary help 
+		(str-score: 1.0, sentiment: -0.22605547)
+	 duo stop 
+		(str-score: 0.7123016, sentiment: -0.10535833)
+	 none-too-bright strippers 
+		(str-score: 0.7123016, sentiment: 1.6)
+	 bright idea 
+		(str-score: 0.5095238, sentiment: 1.2)
+	 dog food 
+		(str-score: 0.5095238, sentiment: 1.1122584)
+Entities:
+	 Ben Jones: Person 
+		(sentiment: 0.023050398)
+	 Ed: Company 
+		(sentiment: 0.3)
+	 Howdy: Person 
+		(sentiment: 0.45)
+Topics:
+	 Business: 
+		(str-score: None, s-score: 0.0, s-polarity: neutral)
+
+Document 464e1d81-1e57-4743-8194-554f7a087813 
+	Sentiment score: 0.15210126 / Sentiment polarity: neutral
+Document themes:
+	 suspicious-minded wife 
+		(str-score: 1.8409091, sentiment: -3.0)
+	 extremely faithful 
+		(str-score: 1.8409091, sentiment: 2.6499999)
+	 call girl 
+		(str-score: 1.8214285, sentiment: -0.41312504)
+	 friend Shekhar 
+		(str-score: 0.64636755, sentiment: 2.2)
+	 opposite situation 
+		(str-score: 0.22619048, sentiment: 0.22583333)
+	 various people 
+		(str-score: 0.2, sentiment: 0.198148)
+	 several affairs 
+		(str-score: 0.09090909, sentiment: 0.40315002)
+	 gorgeous women 
+		(str-score: 0.09090909, sentiment: 0.3)
+Entities:
+	 Kishen: Person 
+		(sentiment: 1.759)
+	 Kaajal: Person 
+		(sentiment: -0.6)
+	 Bobby: Person 
+		(sentiment: 0.0)
+Opinions:
+	 he is always having an affair with another woman, even though he is extremely faithful to her and wouldn't dream of betraying her in any way.: 
+		(s-score: 0.53, s-polarity: positive)
+	 he is always having an affair with another woman, even though he is extremely faithful to her and wouldn't dream of betraying her in any way.: 
+		(s-score: 0.53, s-polarity: positive)
+Topics:
+	 Marriage: 
+		(str-score: None, s-score: -0.26125002, s-polarity: neutral)
+
+Document 265f9a4c-28c3-455e-b79b-6996c699ca12 
+	Sentiment score: -0.32258376 / Sentiment polarity: negative
+Document themes:
+	 school reunion years 
+		(str-score: 5.422024, sentiment: -2.7887673)
+	 crowded hotel lobby 
+		(str-score: 3.2142856, sentiment: -1.5560145)
+	 unstable woman 
+		(str-score: 2.6623015, sentiment: -5.1211567)
+	 school classmate 
+		(str-score: 2.6623015, sentiment: -3.2559757)
+	 Pat experience 
+		(str-score: 2.142857, sentiment: -1.5900673)
+	 familiar-looking boy 
+		(str-score: 1.875, sentiment: 0.6312069)
+	 adoptive father 
+		(str-score: 1.4928572, sentiment: 1.0650498)
+	 playing basketball 
+		(str-score: 1.4928572, sentiment: 2.0025249)
+	 real family 
+		(str-score: 0.6075758, sentiment: -1.3625159)
+	 bedroom window 
+		(str-score: 0.6075758, sentiment: -2.041258)
+	 Cappadora family 
+		(str-score: 0.25, sentiment: -0.17103125)
+	 painful results 
+		(str-score: 0.25, sentiment: -0.6)
+	 committed suicide 
+		(str-score: 0.2, sentiment: -0.245)
+	 frantic search 
+		(str-score: 0.083333336, sentiment: -0.6)
+	 nervous breakdown 
+		(str-score: 0.083333336, sentiment: -0.59)
+Entities:
+	 Beth Cappadora: Person 
+		(sentiment: -3.9451265)
+	 Ben: Person 
+		(sentiment: -2.73306)
+	 Jonathan Jackson: Person 
+		(sentiment: 0.0)
+	 Kerry: Person 
+		(sentiment: 0.0)
+	 Vincent: Person 
+		(sentiment: -0.07999998)
+Opinions:
+	 he remembered something from before his abduction, playing with Vincent and Vincent finding him, causing him to feel safe.: 
+		(s-score: -0.5833333, s-polarity: negative)
+	 he remembered something from before his abduction, playing with Vincent and Vincent finding him, causing him to feel safe.: 
+		(s-score: 0.6, s-polarity: positive)
+	 to return to living with his real family, but first plays a game of basketball with his brother with their parents secretly watching from their bedroom window.: 
+		(s-score: 0.0, s-polarity: neutral)
+	 to return to living with his real family, but first plays a game of basketball with his brother with their parents secretly watching from their bedroom window.: 
+		(s-score: 0.0, s-polarity: neutral)
+	 to return to living with his real family, but first plays a game of basketball with his brother with their parents secretly watching from their bedroom window.: 
+		(s-score: 0.0, s-polarity: neutral)
+	 he remembered something from before his abduction, playing with Vincent and Vincent finding him, causing him to feel safe.: 
+		(s-score: -0.5833333, s-polarity: negative)
+	 he remembered something from before his abduction, playing with Vincent and Vincent finding him, causing him to feel safe.: 
+		(s-score: 0.6, s-polarity: positive)
+Topics:
+	 Marriage: 
+		(str-score: None, s-score: -0.38740388, s-polarity: neutral)
+	 Education: 
+		(str-score: None, s-score: -0.7696759, s-polarity: negative)
+	 Sports: 
+		(str-score: None, s-score: 0.0, s-polarity: neutral)
+
+Document 8a5425a2-2c23-4296-a494-c98004a3cc04 
+	Sentiment score: 0.114102684 / Sentiment polarity: neutral
+Document themes:
+	 identical triplets 
+		(str-score: 1.0, sentiment: 0.057051342)
+	 local nightclub 
+		(str-score: 1.0, sentiment: 0.056025676)
+	 Trouble brews 
+		(str-score: 1.0, sentiment: -0.49)
+	 unmarried set 
+		(str-score: 1.0, sentiment: 0.028012838)
+	 unsuspecting brothers 
+		(str-score: 1.0, sentiment: 0.2590064)
+	 married brothers 
+		(str-score: 1.0, sentiment: -0.14113571)
+	 nightclub waiter 
+		(str-score: 1.0, sentiment: 0.12943214)
+
+Document 4e960050-da1e-4c28-a8ab-fb43ab5e0ea1 
+	Sentiment score: -0.13546419 / Sentiment polarity: negative
+Document themes:
+	 good fortune 
+		(str-score: 1.0, sentiment: 0.4)
+	 martial artists 
+		(str-score: 0.33333334, sentiment: 0.7571)
+	 highly skilled 
+		(str-score: 0.33333334, sentiment: 0.8428)
+	 cause Wind 
+		(str-score: 0.25, sentiment: -0.58972204)
+	 helpful villagers 
+		(str-score: 0.125, sentiment: 0.4)
+Entities:
+	 Lord Conqueror: Person 
+		(sentiment: -4.4182596)
+	 head: Job Title 
+		(sentiment: -0.6)
+	 Wind: Product 
+		(sentiment: -2.9151492)
+	 Cloud: Person 
+		(sentiment: -2.5083067)
+Opinions:
+	 Wind and Cloud will either join or destroy Conqueror.: 
+		(s-score: 0.0, s-polarity: neutral)
+	 Wind and Cloud will either join or destroy Conqueror.: 
+		(s-score: -0.6, s-polarity: negative)
+	 Wind and Cloud will either join or destroy Conqueror.: 
+		(s-score: 0.0, s-polarity: neutral)
+	 Wind and Cloud will either join or destroy Conqueror.: 
+		(s-score: -0.6, s-polarity: negative)
+Topics:
+	 Marriage: 
+		(str-score: None, s-score: -0.7583334, s-polarity: negative)
+
+Document 547dd06f-75ce-4313-ae99-4f8bfcb25944 
+	Sentiment score: -0.0939909 / Sentiment polarity: negative
+Document themes:
+	 traditional house 
+		(str-score: 1.6761906, sentiment: -2.954543)
+	 sham marriage 
+		(str-score: 1.2, sentiment: -1.96)
+	 Indian wife 
+		(str-score: 1.0, sentiment: -0.033014685)
+	 favorite tennis star 
+		(str-score: 0.875, sentiment: 1.2)
+	 struggling cartoonist 
+		(str-score: 0.5833334, sentiment: -1.2)
+	 tennis match 
+		(str-score: 0.5833334, sentiment: -0.066071436)
+	 incrimiating evidence 
+		(str-score: 0.16666667, sentiment: -0.2656714)
+Entities:
+	 Anita: Person 
+		(sentiment: 0.53918004)
+	 Sita Devi: Person 
+		(sentiment: -1.09)
+Topics:
+	 Marriage: 
+		(str-score: None, s-score: -0.185, s-polarity: neutral)
+
+Document b4358b50-a856-4802-b172-89e7fb3de26c 
+	Sentiment score: -0.104804374 / Sentiment polarity: negative
+Document themes:
+	 various ways 
+		(str-score: 1.2111112, sentiment: 0.14534101)
+	 huge vault 
+		(str-score: 1.2111112, sentiment: 0.6)
+	 preteenager client 
+		(str-score: 1.2083334, sentiment: 0.034807652)
+	 business card 
+		(str-score: 1.2083334, sentiment: 0.017403826)
+	 theater marquis 
+		(str-score: 1.2083334, sentiment: 0.008701913)
+	 huge all-day sucker 
+		(str-score: 1.15, sentiment: -0.5064285)
+	 various schticks 
+		(str-score: 0.9444445, sentiment: 0.4576268)
+	 droopy-eyed duck 
+		(str-score: 0.7666667, sentiment: -1.38)
+	 banjo case 
+		(str-score: 0.7666667, sentiment: -0.6975919)
+	 strong baritone voice 
+		(str-score: 0.21428572, sentiment: 0.0)
+Entities:
+	 Porky Pig: Person 
+		(sentiment: -0.13529366)
+Topics:
+	 Space: 
+		(str-score: None, s-score: -0.08453622, s-polarity: neutral)
+	 Sports: 
+		(str-score: None, s-score: 0.0, s-polarity: neutral)
+
+Document c3b1c5c9-9dbf-4226-8a86-06b49fec2b17 
+	Sentiment score: 0.11694465 / Sentiment polarity: neutral
+Document themes:
+	 former profession 
+		(str-score: 1.3333334, sentiment: -1.0127342)
+	 junk dealers 
+		(str-score: 1.3333334, sentiment: -1.6064998)
+	 copper stock 
+		(str-score: 1.0, sentiment: 0.24918754)
+	 wealthy parents 
+		(str-score: 0.8666667, sentiment: 2.1)
+	 junk company 
+		(str-score: 0.53333336, sentiment: -1.0709999)
+	 poor background 
+		(str-score: 0.16666667, sentiment: -0.735)
+	 long-ago sweetheart 
+		(str-score: 0.16666667, sentiment: 1.125)
+Entities:
+	 Tim Kelly: Person 
+		(sentiment: 0.49)
+	 Max Ginsberg: Person 
+		(sentiment: 1.125)
+	 Mary Riley: Person 
+		(sentiment: 1.7795001)
+	 Nathan Burke: Person 
+		(sentiment: -0.0113453865)
+Topics:
+	 Marriage: 
+		(str-score: None, s-score: 0.23970534, s-polarity: neutral)
+	 Business: 
+		(str-score: None, s-score: -0.22312498, s-polarity: neutral)
+
+Document 22074885-73d2-4642-97ea-e03f41b90f2f 
+	Sentiment score: -0.12926671 / Sentiment polarity: negative
+Document themes:
+	 teenagers head 
+		(str-score: 1.625, sentiment: -0.15368642)
+	 senior citizens retirement home 
+		(str-score: 1.202381, sentiment: 0.818763)
+	 Honeywagon plans 
+		(str-score: 0.6011905, sentiment: -0.27292147)
+	 pet chimp 
+		(str-score: 0.5, sentiment: -0.13387501)
+	 especially Honeywagon 
+		(str-score: 0.5, sentiment: -0.1561875)
+	 British rocker 
+		(str-score: 0.39285713, sentiment: 0.516303)
+	 jealous rage 
+		(str-score: 0.16666667, sentiment: -0.75)
+	 Frankie challenges 
+		(str-score: 0.16666667, sentiment: -0.11619708)
+	 drag race 
+		(str-score: 0.16666667, sentiment: -0.11619708)
+Entities:
+	 Harvey Huntington: Person 
+		(sentiment: 0.0)
+	 Bikini Beach: Place 
+		(sentiment: 0.272921)
+	 Peter Royce Bentley: Person 
+		(sentiment: 0.3)
+	 Frankie: Person 
+		(sentiment: -0.8881666)
+	 Dee Dee: Person 
+		(sentiment: -0.862955)
+Topics:
+	 Marriage: 
+		(str-score: None, s-score: -0.1381111, s-polarity: neutral)
+	 Education: 
+		(str-score: None, s-score: 0.0, s-polarity: neutral)
+
+Done!

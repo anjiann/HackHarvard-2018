@@ -1,0 +1,50 @@
+React Workshop
+React is a JavaScript library for interactivity
+
+3 Big Ideas
+1. JSX
+2. Components
+3. State
+
+JSX
+- In JS we can treat functions as variables
+let double = (x) => {
+    return x*2;
+};
+
+The idea of JSX is that we let html elements 
+be values as well
+i.e. let elt = <div>Hello!</div>;
+- or we could even set elt to be a whole
+unordered list, i.e. we can nest tags
+
+
+Components
+- different way of thinking about our website
+- html is usually in a nested structure
+- let's rethink html elements
+- we recognize repetition and make it cleaner
+
+State
+- updating values in our HTML can be tedious
+- we usually have to isolate the value so that 
+we can reference it, then get the exact element,
+and then actually update the webpagae
+- React will remove our involvement in this
+
+this.state = {score: 28};
+<div>Score: {this.state.score}</div>
+#now the HTML is actually dependent on the state
+function updateScore() {
+    this.setState(state =? ({
+        score: state.score +1
+        //when we change the state inside the
+        react program, any element that you have
+        tied to that state will update itself
+    }));
+}
+
+- note that user inputs, i.e. an input field, are also state
+
+
+brian@cs.harvard.edu
