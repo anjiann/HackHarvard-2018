@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  	<link rel="stylesheet" type="text/css" href="hackharvard.css">
+ 	<title>Night of the Moodium</title>
+
+	<body>
+
+    	<!--<div class="center"> -->
+ 		
+			<h1><a href="aboutus.html">Night of the Moodium</h1></a>
+
+		<div id="myOverlay" class="overlay">
+  			<span class="closebtn" onclick="closeSearch()" title="Close Overlay" >Close</span>
+  			<div class="overlay-content">
+    			<form action="/action_page.php">
+      				<input type="text" placeholder="" name="search">
+  					<button type="submit"><i class="fa fa-search" text-align="center">Submit</i></button>
+    			</form>
+  			</div>
+		</div>
+
+	<button class="openBtn" onclick="openSearch()">I am feeling ...</button>
+
+	<script>
+		function openSearch() {
+   		document.getElementById("myOverlay").style.display = "block";
+
+		}
+
+		function closeSearch() {
+    	document.getElementById("myOverlay").style.display = "none";
+		}
+		
+    	</script>
+
+
+ 		</div>
+
+
+		
+    </body>	
+   </head>
+</html>
+
