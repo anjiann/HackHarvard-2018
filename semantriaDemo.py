@@ -73,6 +73,8 @@ movieScores = {}
 
 #we have our results array, print them for viewing
 # Print sample of analysis results. (There's lots more in there!)
+#for index, data in enumerate(results):
+#use index to index into our list of movieIDs
 for data in results:
     #initialize counts for analysis fields
     analysis = [0.0, 0.0, 0.0, 0.0]
@@ -135,6 +137,9 @@ for data in results:
             docScore = docScore*(1/(1+aScore))
 
     #Map movie ID number to movie title
+    #get the movie ID that we split from the synopsis string
+    #use that id to pass into idList.index(____)
+    #this will map into titleList
     movieTitle = titleList[idList.index(data['id'])]
     movieScores[titleList] = docScore
     print("")
